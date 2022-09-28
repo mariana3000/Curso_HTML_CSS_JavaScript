@@ -1,0 +1,40 @@
+*Sempre antes de qualquer codigo sera envolvido pela tag de <html> .... </html>
+
+* Temos tambem a tag <head> ... </head> , dentro dela vai as informações complementares que não vai fazer parte do conteúdo da página.
+ - Um exemplo é o titulo que aparece apenas na barra do navegador, não faz parte da parte vizivel do browzer, esta tag serve para passar informações adicionais para o agente de usuario.
+
+ * A tag <boby> ... </body> serve para encapsular todo o conteudo da página
+
+ * è interessante adicionar um atributo no na tag html inicial <html lang="pr-br"> pois serve para informar as maquinas que a pagina encontra-se em português.
+
+ EXEMPLOS
+
+ <html lang="pt-br">
+    <head> 
+          <title> título da página </title>
+    </head>
+
+
+    <body>
+          <!-- Conteúdo da página (isto é um comentário) -->
+    </boby>
+ 
+ </html>
+
+ 
+ *Toda vez que tiver <! é uma declaração e não uma tag !!!
+
+ * Temos uma declaração chamada <!doctype html> que serve para informar o tipo do documento que esta sendo escrito. 
+  - Geralmente é utilizado sempre no inicio do documento, antes da tag html.
+
+ * Tem uma Meta tag chamada <meta charset="utf-8"> que serve para informar que a página tem uma codigicação de caracter UTF-8, é a que abrange a maior quantidade de caracteres especiais.
+
+
+ IMAGENS, ARQUIVOS EXTERNOS E LINKS
+<a>            <link>            <img>           <script>
+href            href              src              src                 (ATRIBUTOS)
+title           rel               alt                                  (ATRIBUTOS)
+
+* href e rel informa qual o tipo do arquivo, se é CSS ou se é ICONE, etc.
+* src é o condigo fonte, a fonte da imagem.
+* alt carrega uma mensagem alternativa caso a imagem não apareça por algum motivo.   

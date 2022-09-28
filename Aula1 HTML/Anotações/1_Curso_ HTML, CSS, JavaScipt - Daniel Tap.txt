@@ -1,0 +1,23 @@
+Curso_ HTML, CSS, JavaScipt - Daniel Tapias Moraes
+
+Aula- Introdução
+
+                            /\
+               JavaScipt   /  \   CSS
+                          /    \
+                         /______\
+
+                           HTML
+
+° HTML: Base, serve para marcar o conteudo da pagina. (Semantica, conteudo, informações)
+° CSS: Linguagem para formatar visualmente a PAGINA / html. (Parte de layout, visual, designer)
+° JavaScript: Responsavel pela inteligencia, responsavel pelo comportamento da pagina. (entrada dados incorretos, o que deve ocorrer).
+
+° HTML é um arquivo de texto com marcações HTML que dão significado ao conteúdo.
+Exemplo:
+<h1> Isso é um título </h1>
+<p> Isso é um paragrafo </p>
+<b> Texto em negrito </b>
+
+°Todas as paginas são um HTML e os Sites são uma pasta contendo varios arquivos HTML
+

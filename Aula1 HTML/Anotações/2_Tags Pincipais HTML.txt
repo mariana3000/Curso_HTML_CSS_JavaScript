@@ -1,0 +1,87 @@
+° <>  ....  </> Sintaxe
+° <h1> Meu título </h1>         (título maior)
+° <h2> Meu título </h2>
+° <h3> Meu título </h3>
+° <h4> Meu título </h4>
+° <h5> Meu título </h5>
+° <h6> Meu título </h6>         (título menor)
+
+*As tags de titulos de H1 - H6 serve para hierarquizar as informações, não devem ser utilizadas para deixar um texto maior ou menor, pois isso seria uma questão visual 
+e sabemos que se é uma questão visual é função do CSS.
+
+
+° <p> Meu parágrafo </p>
+° <br>                          (Pular linha)
+° <hr>                          (Quebra de linha, so que mostra uma linha horizontal)
+
+TAGS PARA ÊNFASE NO TEXTO
+°<i> Itálico </i> 
+° <b> Negrito </b>
+° <em> Itálico Semântico </em>
+° <strong> Negrito Semântico </strong>
+
+* As tags devem ser aninhadas, a primeira tag aberta é a ultima a ser fechada.
+
+LISTAS NÃO ORDENADAS
+
+                      |---<ul> 
+                      |
+                      |       <li>  .....  </li>  ---|   
+ (Lista não ordenada) |       <li>  .....  </li>     |   (Item de lista)
+        ( ul )        |       <li>  .....  </li>  ---|
+                      |
+                      |---</ul>
+
+
+LISTAS ORDENADAS
+
+                  |---<ol> 
+                  |
+                  |       <li>  .....  </li>  ---|   
+ (Lista ordenada) |       <li>  .....  </li>     |   (Item de lista)
+       ( ol )     |       <li>  .....  </li>  ---|
+                  |
+                  |---</ol>
+
+*Quando vc vai utilizar uma OL? R: Quando a lista precisa obedecer uma ordem/sequencia (receita de bolo).
+*Quando vc vai utilizar uma UL? R: Quando vc precisa apresentar itens independente da ordem.
+
+
+LINKS 
+
+                    (Parágrafo)
+          __________________________________
+         |            (Link ancora)         |
+         |             __________           |
+         |             |        |           |
+        <p> Texto com <a> link </a> aqui  </p>
+
+
+*A tag mais importante do HTML é a tag de link " <a> .... </a> " é onde vai criar uma ancora/ vinculo entre uma pagina e outra.
+
+*Como eu faço para o usuario clicar na palavra entre a tag de link e o usuário ser direcionado para outra página? R: Para isso sera necessario um atributo.
+
+ATRIBUTOS
+
+<tag atributo="valor"> texto aqui </tag>
+* A tag é uma coisa, o atributo são algumas informações a mais para a tag, pois a tag sozinha não é capaz.
+EXEMPLO1
+
+<p> saiba mais sobre
+<a href="http://www...  .com.br"> HTML5 </a>
+visitando nosso blog e seja feliz </p>
+
+EXEMPLO2
+
+<p> saiba mais sobre
+<a href="http://www...  .com.br" target="_blank"> HTML5 </a>
+visitando nosso blog e seja feliz </p>
+
+*Este exemplo serve para ser aberto em uma nova pagina/janela
+
+DEMAIS EXEMPLOS
+
+<a href="http://www...  .com.br"> HTML5 </a>             *Link externo, arquivo que esta fora do meu sir/ outro servidor.
+<a href="outrapagina.html"> HTML5 </a>                   *Arquivo que ja contém no mesmo site, então vai colocar o nome do arquivo seguido do html, pois é outra aba do mesmo site.
+<a href="#secao"> HTML5 </a>                             *Navegar na mesma pagina, quando vc clina no menu e ele vai escrolando a pagina (não animado).
+<a href="mailto:alguem@server.com"> HTML5 </a>           *Link de e-mail.

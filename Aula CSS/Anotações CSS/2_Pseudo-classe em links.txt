@@ -1,0 +1,11 @@
+Pseudo-Classes
+
+a:link {...}            (Link normal,)
+a:visited {...}         (é quando o usuario ja visitou este link, podendo assim ter uma formatação diferente )
+a:hover {...}           (é o estado de passar o mouse sobre o link)
+a:active {...}          (serve quando o botão do mouse estiver precionado sobre o link )
+
+Formatação de listas
+list-style-type            (tipo do bulyt)
+list-style-position        (se é mais interno ou externo da lista)
+list-style-imagem          (inserir imagem)

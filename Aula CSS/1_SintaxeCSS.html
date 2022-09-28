@@ -1,0 +1,81 @@
+<!doctype html> 
+<html lang="pt-br">
+    <head>
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8" > 
+        <meta name="author" content="Mariana" >
+        <meta name="description" content="lista de documentos">
+
+        <!--Quando o navegador entrar no style ele para de entender HTML e passa entender CSS, quando ele sair ele volta a entender HTML-->
+        <style> 
+            body {
+                background-color: aquamarine;
+            }
+            
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 38px;
+                font-style: italic;
+                font-variant: small-caps;
+                color:rgb(90, 0, 0);               /* */
+                background-color: burlywood;
+                margin-left:0;         /* margem na esquerda, espaçamento externo*/
+                margin-top:50px;       /* margem topo, espaçamento externo*/
+                margin-bottom:50px;    /* espaçamento em baixo, espaçamento externo(bordas anteriores ao campo de texto*/
+                padding-left:25px;     /* espaço da borda ate as palavras, sem a cor em baixo ir junto, espaçamento do espaço interno */
+                padding-top:50px;      /* espaçamento interno da parte de cima  */
+
+            }
+
+            h2 {
+                text-transform: uppercase ;
+                font-family:'Times New Roman', Times, serif ;
+                color: #12de5a;
+                background-color: #f85f47;
+
+                
+                border-color: darkmagenta;  /*Cor da borda */
+                border-style:groove ;         /* Tipo da Borda, quando quiser inserir borda so de um lado é so colocar o lado  por exemplo border-bottom-style em todos a baixo.*/
+                border-width: 20px;           /* espessura da borda */
+                padding: 25px;                /* */
+            }
+
+            p {
+                font-variant: normal;
+                text-align: center;
+                text-decoration: underline;
+                text-indent: 50px;
+                text-transform: none;
+
+            }
+
+            #destaque {
+                color:red;
+ 
+            }
+
+            .paragrafo {
+                color: blue;
+                background-color: burlywood;
+            }
+
+           
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Estrutura base</h1>
+        <h2>Subtitulo da pagina</h2>
+        
+        <p> Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Casamentiss faiz malandris se pirulitá.Quem manda na minha terra sou euzis!
+        </p>
+
+        <p class="paragrafo">Suco de cevadiss deixa as pessoas mais interessantis.Si num tem leite então bota uma pinga aí cumpadi!Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Delegadis gente finis, bibendum egestas augue arcu ut est.
+        </p>
+
+        <p id="destaque"> Delegadis gente finis, bibendum egestas augue arcu ut est.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Viva Forevis aptent taciti sociosqu ad litora torquent.
+        </p>
+
+    </body>
+</html>

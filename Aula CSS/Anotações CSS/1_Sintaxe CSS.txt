@@ -1,0 +1,79 @@
+* No CSS temos um seletor, que é quem eu estou querendo mudar (Se for um h1 ou p ou quaquer outra tag que eu queira mudar).
+* Depois do seletor temos as chaves {} e dentro dela tenho a declaração.
+EXEMPLO:                                             EXEMPLO2:                          EXEMPLO3:
+                                             
+    Regra                                    
+   __________________________                
+   |         Declaração      |                                                       h1{
+   |        ______________   |                                                           color: red;
+   |       |              |  |                                                           front-size: 16px;
+ seletor { propiedade: valor;}                   h1 { color: red;}                    }
+
+
+* LEMBRE-SE: deve finalizar com o ponto e virgula antes das chaves, caso esqueça o código vai quebrar, a regra de CSS não vai ser aplicada.
+
+Como eu posso incluir um arquivo CSS/ formatar visualmente uma pagina HTML?
+R: Temos 3 fomas:
+ °Inline: Podemos inserir o estilo como um atributo la no HTML, mas esta forma deve ser desencorajada pois dificulta a manutenção pois é feito 1 por vez/individual e se caso vc faça 50 e outro dia necessite alterar a cor vai ser necessario alterar nos 50 lugares.
+ (Geralmente utilizados em casos muito especifico).  Exemplo:  <p style="...">   ...   </p> 
+
+ °Interno: Exemplo: <style> ... </style>  // Seria entre as duas tags, dentro da tag head, tambem não é muito utilizado por conta da manutenção.
+
+ °Externo: é criado um arquivo CSS e vincula este arquivo em todas as paginas do meu site, assim caso precise alterar alguma coisa é so alterar no arquivo CSS que assim tambem sera alterado para todos os HTML.
+
+* Se no HTML temos a tag <p> ... </p> no CSS vamos mencionar apenas como p.
+HTML: <p>  ...  </p>
+CSS: p {  ...  }
+
+*Todo elemento/tag HTML aceita um atributo "class" e dentro deste atributo pode chamar o nome que eu quiser. 
+EXEMPLO:
+ 
+ HTML: <p class="minha-classe">  ...  </p>
+ CSS: .minha-classe { ... }
+
+ * sempre que vc ver no CSS um seletor começando com . quer dizer que vc esta selecionando pelo atributo class.
+
+* Temos como selecionar um elemento utilizando o atributo id.
+EXEMPLO:
+
+ HTML: <p id="meu-id">  ...  </p>
+ CSS: #meu-id { ... }
+
+ * sempre que vc ver no CSS um seletor começando com # quer dizer que vc esta selecionando pelo atributo id. 
+
+* QUANDO EU VOU UTILIZAR O ATRIBUTO "class" E QUANDO VOU UTILIZAR O ATRIBUTO "id"?
+id: so pode ser utilizado 1 unico valor de id por página, se ele é um identificador ele é unico, não pode ter + de 1 id igual na mesma página.
+
+
+PROPRIEDADES
+ Fontes:
+    font-family    (Serve para formatar a familia da fonte)
+    font-size      (Serve para alterar o tamanho da fonte maior ou menor )
+    font-style     (Serve para alterar o estilo da fonte (italico, normal))
+    font-variant   (Serve para mudar a forma de escrita, letras maiusculas e minusculas)
+    font-eith      (Serve para o negrito)
+
+ Text:
+    text-align            (Serve para DIREITA OU ESQUERDA, centralizado(center), justificado(left) )
+    text-decoration       (Serve para texto sublinhado (underline) ou quando parece que o texto foi riscado (line-through))
+    text-indent             (Serve para se tenho um espaçamento no inicio do paragrafo ou não )
+    text-transform        (Serve para se eu quero escrever tudo maiusculo ou tudo minusculo)
+
+ Cor:
+    color                 (Serve para inserir uma cor na fonte cor no texto)
+    background-color      (Serve para inserir uma cor do fundo de um elemento ou de uma página)
+
+    * Temos o #RGB que é um codigo exadecimal (LETRA E NUMEROS)
+       - R: Red    G: Verde    B: Blue
+  
+    * Vermelho o código é                                          #F F 0 0 0 0
+    * Verde o código é                                             #0 0 F F 0 0
+    * Azul o código é                                              #0 0 0 0 F F 
+    * Amarelo é a junção de VERDE e VERMELHO então o código é      #F F F F 0 0 
+    * Magenta é a junção de VERMELHO e AZUL então o código é       #F F 0 0 F F
+    * Cyano é a mistura de VERDE e AZUL então o código é           #0 0 F F F F
+    * Branco é a junção de TODAS as cores então o código é         #F F F F F F
+
+* Da para selecionar a cor pelo codigo ou pelo nome quando for utilizar no CSS.
+
+

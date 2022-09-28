@@ -1,0 +1,97 @@
+No HTML podemos inserir imagem com a tag img com os dois atributos src e alt:  <img src"..." alt"...">
+
+O atributo alt seria uma boa pratica pois ele serve como texto alternativo para aquela imagem
+É melhor ter o atributo alt vazio do que não colocar.
+
+(quando eu vou precisar de um texto alternativo? R: Em dois momentos, quando der problema na sua imagem e ela não for carregado pelo navegador, 
+a outra utilidade seria para acessibilidade, pois um deficiente visual não vai ver a imagem vai ouvir o que a imagem representa pelos app disponiveis. E o texto que ele vai ouvir é justamente o texto que vai estar dentro do alt. )
+
+A outra bmaneira é utilizando com o CSS:
+
+background-image: url(...);
+
+*Detalhe: Não pode ter espaço depois da letra L e o inicio do parenteses.
+
+*Quando utilizar HTML e quando utilizar o CSS?
+R: o HTML é conteudo então se fazer parte do conteudo é incluso no HTML.
+Ja no CSS é utilizado para o visual, formatação, designer(detalhe).
+
+*Em alguns casos pode ser inserido alguma imagem visual no HTML, ai neste caso é melhor deixar o alt vazio.
+
+TIPOS DE IMAGENS 
+
+.jpg / .jpeg    // é utilizado quando tem muitas informações de cores como uma fotografia, porem existe uma compressão maior, ou seja vai perder um pouco de qualidade, mas é aceitavel para ter um tamanho de arquivo menor.
+.png            // também é utilizado para fotografia, e tambem utilizado quando tenho poucas cores e quyando precisa de transparencia.
+.gif            // também utilizado para transparencia mais dura, da para ver uns pixels sobrando, sujeirinha branca (poucas cores, ou gif animado).
+.svg            // formato vetorial, tem avantagem de não perder resolução quando o usuario da zoom, tambemn não altera o tamanho do arquivo.
+.webp           // Formato novo do google que tem a vantagem de ser mais comprimido e a desvantagem é que não é suportado por todos os browzers ainda.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

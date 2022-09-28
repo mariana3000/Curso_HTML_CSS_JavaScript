@@ -1,0 +1,55 @@
+<!doctype html> 
+<html lang="pt-br">
+    <head>
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8" >  
+        <meta name="author" content="Mariana" >
+        <meta name="description" content="lista de documentos">
+
+        <style>
+            p { font-family: sans-serif;}
+
+            li{ font-family: sans-serif ;}
+
+            body{ color:rgb(7, 136, 115) }
+
+            a{color:rgb(177, 5, 154)}  /*A tag de link tem como padrão a cor azul (inserida pelo padrão do navegador) assim, caso deseje alterar a cor a tag deve ser selecionada separadamente */
+
+            a:hover { color:rgb(179, 132, 223)} /*cor para quando o usuario passar o mouse em cima.*/
+
+            a:visited {color:rgb(16, 123, 211)}  /*cor para quando o site ja foi visitado*/
+
+            a:active{ color:rgb(172, 235, 1)}  /*cor quando clica em cima do link*/
+
+            a:link { color:fuchsia} /*apenas a cor do link, apos clicar e visitar a pagina ele pega o padrão de pagina visitada do navegador*/
+
+            ul li{list-style-type: disc ;} /*tipo da bolinha, para formatar a tag li em geral(todas independente de ol ou ul) é so por li, mas para formatar a li de uma lista especifica, é necessario innformar a lista antes.*/
+
+            ol li{list-style-type: upper-roman;   /*tipo de bolinha, letra ou de numeros.*/
+                    list-style-position: inside;  /*determina se a lista vai ficar mais a direita ou esquerda*/
+            }
+
+        </style>
+        
+    </head>
+
+    <body>
+      <a href="1_SintaxeCSS.html"> veja o primeiro arquivo em css</a>
+      <br>
+      <a href="Anotações CSS/Sintaxe CSS.txt"> Veja a sintaxe do css</a>
+
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+
+      <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ol>
+
+      <p> Iniciando o primeiro paragrafo</p>
+    </body>
+</html>
