@@ -1,0 +1,65 @@
+WIREFRAME/ LAYOUTS
+Estruturando LAYOUTS:
+
+WIREFRAME: 
+      ___________________________________________________________
+      |
+      |   div#header                                            |         <div id="quadrado/pagina em geral">         
+      |_________________________________________________________|               
+      |                   |                                     |               <div id="header" >  </div>
+      |                   |                                     |               <div id="nav" >  </div>
+      |                   |                                     |               <div id="mainContent" >  </div>
+      |                   |                                     |               <div id="footer" >  </div>
+      |                   |                                     |        
+      |   div#nav         |    div#mainContent                  |         </div>
+      |___________________|_____________________________________|
+      |                                                         |
+      |    div#footer                                           |
+      |_________________________________________________________|
+
+      *A tag div serve para criar uma estrutura, mas não possui valor semantico, não tem uma carga de importancia para o mecanismo de busca/ browser/ navegador.
+      *No geral o pessoal utilizava o mesmo nome para o id, mas poderia ter nomes diferentes, então foi criado uma camada a mais para acrescentar um pouco de semantica.
+
+
+      ___________________________________________________________
+      |                                                         |       
+      |       header                                            |         <div id="quadrado/pagina em geral">
+      |_________________________________________________________|                 
+      |                   |                                     |                <header>     </header>
+      |                   |                                     |                <nav>        </nav>
+      |                   |                                     |                <main>       </main>
+      |       nav         |        main                         |                <footer>     </footer>
+      |                   |                                     |
+      |___________________|_____________________________________|         </div>
+      |                                                         |
+      |    div#footer                                           |
+      |_________________________________________________________|
+
+      *A tag header significa o cabeçalho da página ou cabeçalho da sessão (logo da empresa/ cabeçalho de busca/menu de navegação).
+      *A tag nav significa navegação principal da minha pagina, nem todo link vai ser inserido na tag nav(navegação que nunca muda, sempre igual em todas as paginas).
+      *A tag main utilizada para mostra qual o conteudo principal da sua pagina(é onde o mecanismo de busca(google) vai olhar se o conteudo tem algo relacionado com a pesquisa do usuario) conteudo principal.
+      *A tag footer significa incluir o rodape do nosso site ou da nossa sessão, da nossa pagina (por ex: podemos inserir um footer em cada trecho de artigo)
+
+# OUTRAS TAGS SEMÂNTICAS:
+  ° <section>       Representa uma sessão da minha pagina, mas digamos que ela não tenha tanto valor semântico, ela serve para separa um pedaço da minha pagina/ dividir o conteudo em blocos.
+  ° <article>       Ponto central do documento/Conteudo principal do blog, cada chamada para meu conteudo principal é um article(mais importante semanticamente falando).
+  ° <aside>         Qualquer conteudo que seja a parte do conteudo principal da sua pagina/ não tem relação com o conteudo principal da pagina. (Propaganda)
+
+* Se for utilizar uma tag para te ajudar com o visual de um elemento mais generico utiliza tag div, agora para demarcar uma parte do conteudo da pagina, conteudo que seja relevante utiliza section.
+
+# TAGS NÃO SEMÂNTICAS:
+  ° <div>        utilizada para criar blocos e ajudar com questões visuais, e não acrescentam semântica nem uma. 
+  ° <span>       muito parecida, a diferença é que so vou utilizar quando eu preciso dentro de um determinado texto (dentro de um paragrafo e pegar uma area e inserir um destaque).
+
+  ******Atenção: o layout pode mudar a ordem e divisões, diferente do desenho representado a cima, e podem ter mais divisões com tags explicadas a cima.******
+
+******Atenção: É interessante sempre colocar o nome do arquivo HOME/INICIO como "index" pois é um nome padrão da pagina inicial, o navegador sempre vai abrir a pagina index para o usuario.
+
+
+
+
+
+
+
+
+

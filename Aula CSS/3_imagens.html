@@ -5,7 +5,7 @@
         <title> pagina de exemplo estrutura basica </title>
         <meta charset="utf-8">
         <meta name="author" content="Daniel">
-        <meta name="description" content="descrição bacanuda">
+        <meta name="description" content="descrição">
         <meta name="keywords" content="html5, tecnologia">
         
         <style>
@@ -15,13 +15,14 @@
                 font-family: sans-serif;
                 width: 700px; /*Boddy(corpo do texto), quanto maior maior o tamanho do corpo do texto.*/
                 margin: auto;  /* margem lateral do corpo do texto*/
-                background-image: url(imagens/bg.jpg);
-                background-attachment: fixed;
-                background-size: cover;
-                background-repeat: repeat;
-                background-position: right bottom;
                 background-image: url(imagenscurso/bg.jpg); /*Imagem de fundo da pagina*/
-                background-repeat: no-repeat; /*O "no-repeat" serve para que a imagem de fundo não se duplique (fique so em cima) sem isso a imagem fica na tela toda e o texto que sobe ou desce. */
+                background-attachment: fixed; /*Serve para fixar a imagem, para que ela não role junto com o texto. temos a opção scroll que é o padrão, a imagem sobe e desce junto com o texto (duplica imagem)*/
+                background-size: cover; /*Diz o tamanho da imagem ex: 300 px de largura mas se der espaço e colocar outro valor pode ser definido a altura da imagem, temos outras duas opções:
+                 CONTAIN que vai privilegiar o conteudo da imagem, mesmo que a imagem se repita a outra opção é o COVER ele vai pegar a imagem e fazer ocupar a area inteira mesmo que seja necessario cortar um pedaço da imagem (quando diminui o tamanho do navegador)*/
+                background-repeat: repeat; /*O repeat é o padrão (repetir) mas temos repeat-y ou repeat-x que no caso repete a imagem so na lateral ou só em cima */
+                background-position: right bottom;/*Serve para especificar o lado que será fixo assim caso o navegador esteja pequeno ele vai cortar a outra parte ( neste caso o ceu) primeira palavra é o eixo horizontal e outro vertical no caso foi fixado a parte inferior da pagina e o lado direito, não precisa ser apenas palavras pode ser px ou porcentagem*/
+               
+                background-repeat: no-repeat; /*O "no-repeat" serve para que a imagem de fundo não se duplique, apareça apenas uma vez, sem a marcação (fique so em cima). */
             }
             p{
                 line-height: 1.5; /*Espaçamento entre as linhas do texto*/ 
@@ -31,7 +32,7 @@
                 float: left; /*Imagem flutuante do lado esquerdo, o texto fica do lado da imagem.*/
             }
             .img-css{
-                float: right;/*Imagem flutuante do lado direito, o texto fica do lado da imagem.*/
+                float: right; /*Imagem flutuante do lado direito, o texto fica do lado da imagem.*/
             }
         </style>
     </head>
