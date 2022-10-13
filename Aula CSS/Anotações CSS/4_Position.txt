@@ -1,0 +1,118 @@
+Position:
+static;
+relative;
+absolute; 
+fixed; 
+
+ *STATIC* - Por padrão se não colocar nem um tipo de posicionamentono no seu elemento ele sera o static, isso siginifica que a mesma ordem
+que estiver no seu documento HTML é a mesma ordem que vai aparecer na tela.
+
+*RELATIVE* - Tanto o posicionamento Relative quanto o absolute e o fixed so faz sentido se vc trabalhar com outros conjuntos de propiedade
+como left, top, width, bottom, sempre vai precisar de uma destas propiedades em conjunto.
+
+*ABSOLUTE* - O posicionamento absolute se relaciona sempre com o primeiro elemento pai posicionado, que é um elemento que recebe qualquer 
+valor de position exto o static. sempre se pergunte se tem algum elemento pai que esta com alguma outra propriedade de position/ algum outro valor de position.
+
+*FIXED* - Também é um elemento posicionado porém ele não é relacionado nem a ele mesmo nem ao elemento anterior posicionado (elemento container posicionado), 
+mas sim a janela do browzer, independente do tamanho do documento, sempre vai ficar fixo na tela, na janela do browzer, na view port.
+
+° O "absolute e fixed" ele são elementos que mudão o fluxo normal do documento, permitindo assim posicionar em qualquer lugar da tela. Então tanto faz em qual
+parte esta escrito no documento, se é no inicio ou no final. assim as coisas podem se sobrepor umas as outras por isso existe a propiedade Z-index, esta propiedade
+vai organizar/ ordenar os elementos, o que deve aparecer por cima do que, se não colocar Z-index nem um o padrão é .
+
+° No Z-index os primeiros numeros ficam por baixo do maior:
+
+_____________________________
+|index1 ___________________  |
+|      |index2 __________  | |
+|      |      | index3   | | |
+|      |      |          | | |
+|______|______|__________|_|_|
+       |______|__________|_|
+              |__________|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
