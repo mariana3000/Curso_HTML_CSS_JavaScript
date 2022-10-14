@@ -1,0 +1,100 @@
+Listas aninhadas
+° Nada mais é do que uma lista dentro da outra tanto listas "ul" quanto as listas "ol":
+                                                                        ul
+                                      ----------------------------------------
+<ul>                                  |   ________________________________    |
+    <li> </li>                        |   |     li                       |    |
+    <li>                              |   |______________________________|    |
+        <ul>                          |  _________________________________    |
+            <li> </li>                |  |  li                    ul      |   |
+            <li> </li>                |  |   --------------------------   |   |
+        <ul>                          |  |   |   ____________________  |  |   |
+    <li></li>                         |  |   |   |    li            |  |  |   |
+<div>                                 |  |   |   |__________________|  |  |   |
+                                      |  |   |   ____________________  |  |   |
+                                      |  |   |   |    li            |  |  |   |
+                                      |  |   |   |__________________|  |  |   |
+                                      |  |   |-------------------------|  |   |
+                                      |  |    _________________________   |   |
+                                      |  |    |     li                 |  |   |
+                                      |  |    |________________________|  |   |
+                                      |  |________________________________|   |
+                                      |                                       |
+                                      |---------------------------------------| 
+
+Listas de definição
+<dl>                     <dl>                    <dl>                   
+    <dt></dt>                <dt></dt>               <dt></dt>          
+    <dd></dd>                <dd></dd>               <dt></dt>             
+    <dt></dt>                <dd></dd>               <dt></dt>          
+    <dd></dd>                <dd></dd>               <dd></dd>          
+</dl>                   </dl>                   </dl>                  
+    
+
+°Nas tags "dl" é onde eu inicio e finalizo a definition list 
+°As tags "dt" é definition term, o termo a ser description
+°E a tag "dd" é Definition Description descrição/definição do termo inserido a cima 
+
+*Em uma lista de definiçãoeu posso ter um temo DT tendo mais de uma definição e o oposto tambem acontece ter varios
+ termos com uma unica definição.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

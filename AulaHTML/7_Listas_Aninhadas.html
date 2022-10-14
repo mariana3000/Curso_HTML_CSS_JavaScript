@@ -1,0 +1,75 @@
+<!doctype html> 
+<html lang="pt-br">
+    <head>
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8" > 
+        <meta name="author" content="Mariana" >
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia"> 
+     
+        <style>
+            li ul{
+                /*  display: none;                 Serve para esconder, no caso a subLISTA*/
+                height: 0;
+                overflow: hidden; /*Serve para esconder o conteudo que excede o tamanho que foi definido na altura*/
+                transition: height 0.5s; /*Abre o subLISTA com mais "delicadeza" com mais animação*/
+
+            }
+
+            li:hover {   /*o "hover" serve para ele fazser as ações a baixo quando o mause passar em cima*/
+                background-color: #ccc;
+            }
+
+            li:hover ul { /*Neste caso eu estou dizendo que vou formatar toda a ul que esta dentro de uma li cujo o mouse esta sobre ela.*/
+                display: block; /* volta para display block que é o padrão.*/
+                height: 50px; /*Altura*/
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <hr>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2
+                <ul>
+                    <li>item 2.1 </li>
+                    <li>item 2.2 </li>
+                </ul>
+            </li>
+            <li>item 3</li>
+        </ul>
+
+        <hr>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação de iper texto</dd>
+
+            <dt>CSS</dt>
+            <dd>Linguagem para criação de folhas de estilos</dd>
+        </dl>
+
+        <hr>
+
+        <dl>
+            <dt>www</dt>
+            <dt>Internet</dt>
+            <dd>Rede mundial de cumputadores</dd>
+
+        </dl>
+
+        <hr>
+
+        <dl>
+            <dt>JatavaScript</dt>
+            <dd>linguagem script para internet</dd>
+            <dd>script para rodar no browser</dd>
+        </dl>
+
+    </body>
+</html>

@@ -1,0 +1,154 @@
+TABELAS
+
+° As tabelas servem para mostrar dados tabulares, não devemos utilizar tabelas para nos auxiliar no alinhamento da
+ disposição de elementos na tela.
+
+° Para criar uma tabela percisamos de um conjunto de pelo menos 3 tags:
+                            table
+<table>                      _______________________
+    <tr>                     |   _______________   |
+    <td> </td>               |   |   td         |  |    
+    </tr>                    |   |______________|  |            
+</table>                     |_____________________|     
+
+
+
+                                                          table
+<table>                                                ________________________________________________________                                                             
+    <tr>                                               |    ____________________    ______________________    |                 
+        <td> 1A </td>   <td> 1B </td>                  |   |         1A         |   |         1B          |   |                                       
+                                                       |   |____________________|   |_____________________|   |                     
+    </tr>                                              |    ____________________    ______________________    |                                                                        
+                                                       |   |         2A         |   |         2B          |   |                                                                        
+    <tr>                                               |   |____________________|   |_____________________|   |            
+          <td> 2A </td>   <td> 2B </td>                |   _____________________    ______________________    |                                               
+    </tr>                                              |   |         3A         |   |         3B          |   |                                                                   
+                                                       |   |____________________|   |_____________________|   |                                                                       
+    <tr>                                               |______________________________________________________|                    
+        <td> 3A </td>   <td> 3B </td>                                              
+    </tr>                                                                                                         
+</table>                                                                    
+                                                                              
+
+NÃO TEM COMO FAZER!
+                                                           table
+<table>                                                ________________________________________________________                                                                                        
+    <tr>                                               |   ________________________________________________   |                                                                         
+        <td> 1A </td>                                  |   |                      1A                      |   |                                                                  
+    </tr>                                              |   |______________________________________________|   |                       
+                                                       |    ____________________      ____________________    |                                                               
+    <tr>                                               |   |        2A          |    |         2B         |   |                                    
+        <td> 2A </td>   <td> 2B </td>                  |   |____________________|    |____________________|   |                                                               
+    </tr>                                              |    ____________________      ____________________    |                                                                       
+                                                       |   |        3A          |    |         3B         |   |                                                                         
+    <tr>                                               |   |____________________|    |____________________|   |                                                                                                  
+        <td> 3A </td>   <td> 3B </td>                  |______________________________________________________|                         
+    </tr>                                                                                                                                                    
+</table>                                                                                                                                                                             
+                                                                                                                                              
+*Se vc começa escrevendo sua tabela com duas colunas todas as linhas tem que ter duas colunas ou se tiver tres colunas todas
+  as linhas deve ter tres colunas.         
+
+* Para fazer mesclagem a gente pode utilizar dois atributos Colspan e rowspan, que é a mesclagem da coluna e a mesclagem da linha.
+
+EXEMPLO COLSPAN (Mesclagem de duas colunas (linha inteira horizontal))
+
+<table> 
+
+    <tr>
+        <td colspan="2"> 1A </td>
+    </tr>
+
+    <tr>
+        <td> 2A </td>  <td> 2B </td>
+    </tr>
+
+    <tr>
+        <td> 3A </td>  <td> 3B </td>
+    </tr>
+
+</table>
+
+
+EXEMPLO ROWSPAN (Mesclagem de duas linhas (vertical))
+<table> 
+
+    <tr>
+        <td rowspan="2"> 1A </td> // escolhe a posição e informa q vale por 2 
+        <td> 1B </td>
+    </tr>
+
+    <tr>
+         <td> 2B </td>
+    </tr>
+
+    <tr>
+        <td> 3A </td>  <td> 3B </td>
+    </tr>
+
+</table>
+
+Adicionando mais semantica:
+*Table header possui as tags <th> 1A </th>  <th> 1B </th> que serve para separa uma area para o titulo
+*Table header(cabeçalho da minha tabela) e Teble body (Corpo da minha tabela)
+Ex:
+
+<table> 
+    <thead> 
+        <tr> 
+            <th> 1A </th>  <th> 1B </th>
+        </tr>
+    </thead>
+
+    <body>
+       <tr> 
+            <td> 2A </td>  <td> 2B </td>
+       </tr>
+    </body>
+</table>
+
+*Alem disso temos o " tfoot" fica entre o <thead> </thead> e o <tbody> </tbody>
+*Podemos tambem utilizando a propiedade "border-collapse" que possui 2 parametros o "separate (PADRÃO, possui um espaço entre uma celula e a outra)"
+ e "collapse (Não possui espaçamento, uma tabela de unica linha, não adianta por margem ou padding entre essas celulas)"  
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
