@@ -1,0 +1,86 @@
+*Para iniciar um doc. de formulario é utilizado a tag " <form> </form> ";
+*Dentro da tag form é utilizado a tag " <input type="..."> " que significa entrada de dados/ tipo de entrada de tados;
+*Com o metodo GET ele passa a informação/pesquisa pela URL ja com o metodo POST a informação é passada de outra forma.                            
+*Temos tambem o <fieldset> </fieldset> que serve para criar grupos logicos.
+*
+*
+
+
+Exemplo:
+
+<form action="http://google.com/search" method="GET"> // este link vai encaminhar a pesquisa para o google
+    <input type="text" name:"q"> 
+    <input type= "submit" value="ok">
+    
+</form>
+
+
+TIPOS DE ENTRADA DE DADOS:
+
+INPUT:                           INPUT (HTML5)
+
+* text                           * email
+* password                       * tel
+* checkbox                       * url
+* radio                          * search
+* file                           * number
+* hidden                         * range
+* submit                         * date
+* button                         * time
+* reset                          * color
+
+ALGUNS ATRIBUTOS:
+
+* autofocus                      * max
+* checked                        * mim
+* required                       * cols
+* maxlength                      * rows
+* multiple                       * size
+* placeholder                    * step
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
